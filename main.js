@@ -2,7 +2,8 @@ const projects = [
   { title: '云雾山居', category: '建筑空间', cover: './assets/fall-line.jpg', summary: '围绕悬崖、瀑布与住宅空间展开的建筑展示。从外部立面进入水边空间与木质内核。', url: 'https://brilliant-dasik-c230c8.netlify.app/' },
   { title: '918 Spyder', category: '产品展示', cover: './assets/918-spyder.jpg', summary: '以 918 Spyder 为主题的汽车展示，沿着灯光、制动、驾驶舱与动力等章节逐步展开。', url: 'https://dynamic-ganache-3e60a1.netlify.app/' },
   { title: 'Silver Air', category: '产品展示', cover: './assets/silver-air.jpg', summary: '以耳机与充电盒为主体，通过 FORM、OPEN、CORE、ESSENCE 四个章节探索产品。', url: 'https://animated-kheer-eece7d.netlify.app/' },
-  { title: 'Mountain Run', category: '游戏体验', cover: './assets/mountain-run.jpg', summary: 'H5 登山驾驶游戏 Demo，包含车辆、轮胎与路线选择。打开网站，体验山路驾驶。', url: 'https://mountain-run-demo.netlify.app/' }
+  { title: 'Mountain Run', category: '游戏体验', cover: './assets/mountain-run.jpg', summary: 'H5 登山驾驶游戏 Demo，包含车辆、轮胎与路线选择。打开网站，体验山路驾驶。', url: 'https://mountain-run-demo.netlify.app/' },
+  { title: '女神之殇：无旗者', category: '游戏体验', cover: './assets/goddess-fall.png', summary: '轻量叙事战术 RPG 原型，以七卷《铁与火》主线串起战争、信念与人的记忆。打开独立页面，进入圣辉城档案厅。', url: 'https://lit256818fast.github.io/goddess-fall/' }
 ];
 const reduced = matchMedia('(prefers-reduced-motion: reduce)');
 const dialog = document.querySelector('dialog');
